@@ -39,20 +39,21 @@ h1{
 
 /* Task 3 */
 
-#main{
+/* #main{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
     background-color: #222;
-}
+} */
 
-input{
+/* uncomment for task 3 */
+/* input{
     display: none;
-}
+} */
 
-#btn{
+/* #btn{
     padding: 12px 22px;
     background-color: rgb(41,143, 114);
     color: rgb(255, 255, 255);
@@ -61,4 +62,50 @@ input{
 }
 #btn:hover{
      background-color: rgb(28, 98, 78);
+} */
+
+/* Task 4 */
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+input{
+    display: block;
+    margin: 20px;
+    padding: 5px 25px 5px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 300px;
+}
+.profile{
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.card h6{
+    margin-top: 5px;
+}
+.card h4{
+    margin-top: 2px;
+}
+.card p{
+    margin-top: 3px;
 }
